@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      form {
+        border: 1px solid;
+        width: 26%;
+        margin: 10% auto;
+      }
+      .lobster-regular {
+        font-family: "Lobster", sans-serif;
+        font-weight: 200;
+        font-size: 40px;
+        font-style: normal;
+      }
+      .center{
+        text-align: center;
+      }
+      input{
+        margin: 10px 0;
+        width: 300px;
+        height: 35px;
+        padding-left: 5px;
+      }
+      .btn{
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(15, 177, 232);
+        color: white;
+        font-size: 16px;
+      }
+      a{
+        text-decoration: none;
+        color: rgb(15, 177, 234);
+        font-size: 19px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <form  class="center">
+      <h1 class="lobster-regular center">Instagram</h1>
+      <input type="text" placeholder="Phone number,username,or email"  required/>
+      <br />
+      <input type="password" placeholder="password" required/>
+      <br />
+      <input type="submit" value="Log in" class="btn" formaction="http://www.instagram.com"/>
+      <p >OR</p>
+      <p >
+        Don't have an account ? <a href="signup.html">Sign up</a>
+      </p>
+    </form>
+  </body> 
+</html>
